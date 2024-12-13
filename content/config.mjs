@@ -10,6 +10,9 @@ const config = {
   // links to the pages you want to link to in the navbar and in the footer
   navLinks: [{ href: "/background/intro", name: "Background" },
              { href: "/molecbiol/intro", name: "Molecular Biology" }],
+  search: {
+    provider: "kbar",
+  }
 };
 
 export default config;
