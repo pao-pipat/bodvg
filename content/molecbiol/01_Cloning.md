@@ -12,6 +12,23 @@ tags:
   - Restriction
   - Enzymes
 ---
+## Goal
+
+The goal of this protocol is to clone 5 antigen-binding fragments (Fabs)' heavy and light chains into a pHLsec plasmid (See [info here](https://www.addgene.org/99845/), and also a [paper](https://pubmed.ncbi.nlm.nih.gov/17001101/)). 
+
+The pHLsec plasmid progenitor:
+
+![[Pasted image 20241213163343.png]]
+This is from the supplementary from the paper. In pHLsec, the MCS is modified as below:
+![[Pasted image 20241213163449.png]]
+
+So the MCS becomes **...-Kozak-signal peptide-AgeI-...insert...-KpnI-K-6H-STOP-STOP-...-XhoI-...**
+
+>[! Design]
+> In [[Primers]], the light chain DNA template was designed such that the target sequence integrates at XhoI at the C-terminal to avoid His-tag. For heavy chain DNA template, the target sequence was designed to integrate at KpnI on the C-terminal side.
+
+
+---
 ## PCR of BoDV-1 Fabs 
 - The Fabs sequences and primers are in [[Primers]].
 - 10 PCR reactions amplified DNA sequences for the heavy and light chains of **8B11**, **5G5**, **6F6**, **2G10**, and **6C4**.
