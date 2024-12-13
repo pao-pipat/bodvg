@@ -19,7 +19,9 @@ The goal of this protocol is to clone 5 antigen-binding fragments (Fabs)' heavy 
 The pHLsec plasmid progenitor:
 
 ![[Pasted image 20241213163343.png]]
+
 This is from the supplementary from the paper. In pHLsec, the MCS is modified as below:
+
 ![[Pasted image 20241213163449.png]]
 
 So the MCS becomes **...-Kozak-signal peptide-AgeI-...insert...-KpnI-K-6H-STOP-STOP-...-XhoI-...**
