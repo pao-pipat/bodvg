@@ -8,8 +8,8 @@ const config = {
   author: "Nichakorn Pipatpadungsin (Pao)",
   domain: "https://bodvg.vercel.app",
   // links to the pages you want to link to in the navbar and in the footer
-  navLinks: [{ href: "/background", name: "Background" },
-             { href: "/molecbiol", name: "Molecular Biology""}],
+  navLinks: [{ href: "/background/intro", name: "Background" },
+             { href: "/molecbiol/intro", name: "Molecular Biology""}],
 };
 
 export default config;
