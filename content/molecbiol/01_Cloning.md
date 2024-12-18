@@ -14,11 +14,11 @@ tags:
 ---
 ## Goal
 
-The goal of this protocol is to clone 5 antigen-binding fragments (Fabs)' heavy and light chains into a pHLsec plasmid (See [info here](https://www.addgene.org/99845/), and also a [paper](https://pubmed.ncbi.nlm.nih.gov/17001101/)). 
+The goal of this protocol is to clone 5 antigen-binding fragments (Fabs)' heavy and light chains into a pHLsec plasmid (See [info here](https://www.addgene.org/99845/) and, and also a [paper](https://pubmed.ncbi.nlm.nih.gov/17001101/)). 
 
-The pHLsec plasmid progenitor:
+The pHLsec plasmid:
 
-![[Pasted image 20241213163343.png]]
+![[Pasted image 20241218165316.png]]
 
 This is from the supplementary from the paper. In pHLsec, the MCS is modified as below:
 
