@@ -65,7 +65,7 @@ So the MCS becomes **...-Kozak-signal peptide-AgeI-...insert...-KpnI-K-6H-STOP-S
 -------
 ## Gel Electrophoresis (For Gel extraction)
 
-- Mix 15 g of Agarose and 150 ml of milliQ water together (1% gel, but this can be changed). Then, microwave until almost boiled. Add 15 $\mu$L of SyBR SAFE (10,000$\times$). Then, swirl until all agarose is molten. Cast the gel. Cool down for 30 minutes at room temperature. Then, it should be ready.
+- Mix 15 g of Agarose and 150 ml of 1$\times$TAE together (1% gel, but this can be changed). Then, microwave until almost boiled. Add 15 $\mu$L of SyBR SAFE (10,000$\times$). Then, swirl until all agarose is molten. Cast the gel. Cool down for 30 minutes at room temperature. Then, it should be ready.
 - 50$\times$TAE (gel running buffer) should be on the bench somewhere. But 10$\times$TAE is also available at Weng Lab's bench.
 - Use 6$\times$ Gel Loading Dye -> Add 6 $\mu$L into 30 $\mu$L of PCR products. DO the same for the ladder (for ladder: 4$\mu$L milliQ water + 1 $\mu$L DNA + 1 $\mu$L Dye)
 - Run with the small tank -> **IMPORTANT**: Run at 110 V for 40 minutes.
