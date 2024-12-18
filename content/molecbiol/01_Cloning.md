@@ -24,14 +24,20 @@ This is from the supplementary from the paper. In pHLsec, the MCS is modified as
 
 ![[Pasted image 20241213163449.png]]
 
-So the MCS becomes **...-Kozak-signal peptide-AgeI-...insert...-KpnI-K-6H-STOP-STOP-...-XhoI-...**
+So the MCS becomes **...-Kozak-signal peptide-AgeI-...insert...-KpnI-K-6His-STOP-STOP-...-XhoI-...**
 
 >[! Design]
-> In [[Primers]], the light chain DNA template was designed such that the target sequence integrates at XhoI at the C-terminal to avoid His-tag. For heavy chain DNA template, the target sequence was designed to integrate at KpnI on the C-terminal side.
+> In [[Primers]], the light chain DNA template was designed such that the target sequence integrates at **XhoI** at the C-terminal to avoid His-tag. For heavy chain DNA template, the target sequence was designed to integrate at **KpnI** on the C-terminal side.
+
+The plasmid backbone is retrieved from STRUBI. It is the pHLsec-LORVR plasmid prepared with GigaPrep at concentration of 2.83 mg/ml.
+
+> [!tldr] Method Summary
+Target DNA inserts encoding BoDV-1 Fabs 8B11, 5G5, 6F6, 2G10, and 6C4 were first PCR amplified with Phusion®️ High-Fidelity PCR Master Mix with HF Buffer. The insert DNA templates were designed such that the heavy chain (HC) for each Fab was integrated at AgeI and KpnI restriction sites, while the template for light chain (LC) was integrated at AgeI and XhoI sites. Hence, the translated LCs do not possess 6$\times$His overhang, unlike the HCs. The amplified DNA templates were then purified with QIAquick®️ Gel extraction Kit. Then, the templates were digested with AgeI-HF®️+KpnI-HF®️ for HC insert or AgeI-HF®️+XhoI for LC insert at 37$\degree$C for 1 hour. The pHLsec-LORVR plasmid was also digested under the same conditions with either of the restriction enzymes mixtures to produce suitable backbones for ligation with HC and LC DNA inserts. The digestion products were then purified and subjected to ligation with Quick Ligation Kit™️ for 5 minutes at room temperature. Then, the ligation products were added to 50 $\mu$L of competent cells. The cells were then transformed by heat shock at 42$\degree$C and plated onto ampicillin-containing LB-agar selection plates and incubated overnight at 37$\degree$C. The colonies were then picked and incubated to out-compete background in 500 $\mu$L SOC medium at 37$\degree$C with ~250 rpm shaking before transferring into a 5 mL of LB medium with 1$\times$ampicillin. The bacterial mixtures were then incubated overnight. The plasmids were then purified from the bacteria with QIAprep®️ Miniprep Spin Kit.
+### Materials
 
 
 ---
-## PCR of BoDV-1 Fabs 
+## PCR of BoDV-1 Fabs: 8B11, 5G5, 6F6, 2G10, and 6C4 
 - The Fabs sequences and primers are in [[Primers]].
 - 10 PCR reactions amplified DNA sequences for the heavy and light chains of **8B11**, **5G5**, **6F6**, **2G10**, and **6C4**.
 - Primer solutions were suspended in milliQ water to 100 $\mu$M stock solution.
@@ -70,16 +76,25 @@ So the MCS becomes **...-Kozak-signal peptide-AgeI-...insert...-KpnI-K-6H-STOP-S
 - Use 6$\times$ Gel Loading Dye -> Add 6 $\mu$L into 30 $\mu$L of PCR products. DO the same for the ladder (for ladder: 4$\mu$L milliQ water + 1 $\mu$L DNA + 1 $\mu$L Dye)
 - Run with the small tank -> **IMPORTANT**: Run at 110 V for 40 minutes.
 
->[! Running Gel]
+>[!tip] Running gel
 > For Agarose gel electrophoresis, it is recommended to usually use 10 V/cm of the gel. Because the gel was approximately 10 cm, 100-110 V and 10-15 minutes should be applied to avoid overheating/degradation of DNA.
 > 
 > For SDS-PAGE, 10-15 V/cm is usually recommended.
 
+
 ----
 ## Gel Extraction
 
-- Cut the band under UV-light (dark room) and then melt the gel sections for 10 minutes at 50$\degree$C.
-- Follow the protocol from [*QIAquick Gel Extraction Kit*](HB-0901-003-1114358_PCard_QQ_PCR_Gel_Cleanup_Kit_0718_WW.pdf) which can be downloaded [here](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.qiagen.com/cn/resources/download.aspx%3Fid%3Da72e2c07-7816-436f-b920-98a0ede5159a%26lang%3Den&ved=2ahUKEwjojL73xaSKAxXTSUEAHS77KOUQFnoECBoQAQ&usg=AOvVaw1MHRCE-ETc-ZTr41aVvRew). In quick summary, you add 3 gel volumes (100 mg = 100 $\mu$L for our purposes) of Buffer QG, spin, discard flow-through. Add 500 $\mu$L of Buffer QG, spin, discard flow-through. Add 750 $\mu$L Buffer PE, 
+- Cut the band under UV-light (dark room).
+
+>[!tip] No need to run gel actually!
+>If the products run on gel contain only 1 important band in each lane (i.e. directly from the first PCR), gel electrophoresis can be skipped and Buffer QG can be used in place of Buffer PB and proceed with the same purification protocol. So for example, you can make 2$\times$ PCR reactions to get 100 $\mu$L reaction volume and add 300 $\mu$L of buffer QG. Note that buffer PB from the PCR cleanup kit cannot be used fro melting gels.
+
+- Follow the protocol from [*QIAquick Gel Extraction Kit*](HB-0901-003-1114358_PCard_QQ_PCR_Gel_Cleanup_Kit_0718_WW.pdf) which can be downloaded [here](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.qiagen.com/cn/resources/download.aspx%3Fid%3Da72e2c07-7816-436f-b920-98a0ede5159a%26lang%3Den&ved=2ahUKEwjojL73xaSKAxXTSUEAHS77KOUQFnoECBoQAQ&usg=AOvVaw1MHRCE-ETc-ZTr41aVvRew). Briefly, 3 gel volumes (100 mg = 100 $\mu$L for our purposes) of Buffer QG and melt at 50$\degree$C for 10 minutes. Add 1 volume of isopropanol and transfer to the QIAGEN collection tube, spin, discard flow-through. Add 500 $\mu$L of Buffer QG, spin, discard flow-through. Add 750 $\mu$L Buffer PE, spin, discard flow-through. Elute by adding buffer EB directly to the centre of the column and incubate at room temperature for 5 minutes. Then, spin and collect flow-through.
+
+>[!tip] Elution with less volume (30 $\mu$L)
+> Elute with 30 $\mu$L instead of the recommended 50 $\mu$L will result in higher concentration of DNA. And to reduce wasteful DNA preparation, you can also use **all** of the DNA for further use.
+
 - Prepare the DNA for sequencing as well to check PCR products. No need to run another gel again. Elute DNA with Buffer EB (10 mM Tris-HCl, pH 8.5).
 - Each outcome is the DNA insert containing either a heavy or light chain DNA template of the specific Fab.
 ### PCR amplification results 16/12/2024
@@ -153,13 +168,13 @@ So the MCS becomes **...-Kozak-signal peptide-AgeI-...insert...-KpnI-K-6H-STOP-S
 - average molecular weight of a bp = 617.96 g/mol
 - The insert size is ~ 650 - 700 bp -> 650 bp for a more conservative approximate (i.e. adding more DNA than needed).
 
-| Component                                                       | 20 $\mu$L reaction              |
-| --------------------------------------------------------------- | ------------------------------- |
-| Quick Ligase Reaction Buffer (2X); Thawed and resuspended at RT | 10 $\mu$L                       |
-| pHLSec (4.5 kb)                                                 | 0.020 pmol = 55.6 ng = ? $\mu$L |
-| insert (650 bp)                                                 | 0.100 pmol = 40.1 ng = ? $\mu$L |
-| milliQ water                                                    | to 20 $\mu$L                    |
-| Quick Ligase                                                    | 1 $\mu$L                        |
+| Component                                                       | 20 $\mu$L reaction    |
+| --------------------------------------------------------------- | --------------------- |
+| Quick Ligase Reaction Buffer (2X); Thawed and resuspended at RT | 10 $\mu$L             |
+| pHLSec (4.5 kb)                                                 | 0.020 pmol = 55.6 ng  |
+| insert (650 bp)                                                 | 0.100 pmol = 40.1 ng  |
+| milliQ water                                                    | to 20 $\mu$L          |
+| Quick Ligase                                                    | 1 $\mu$L              |
 
 ### Ligation 17/12/2024 -> in Diamond's -20$\degree$C freezer!
  ---
