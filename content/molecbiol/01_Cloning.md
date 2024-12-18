@@ -26,7 +26,7 @@ This is from the supplementary from the paper. In pHLsec, the MCS is modified as
 
 So the MCS becomes **...-Kozak-signal peptide-AgeI-...insert...-KpnI-K-6His-STOP-STOP-...-XhoI-...**
 
->[! Design]
+>[!info] Design
 > In [[Primers]], the light chain DNA template was designed such that the target sequence integrates at **XhoI** at the C-terminal to avoid His-tag. For heavy chain DNA template, the target sequence was designed to integrate at **KpnI** on the C-terminal side.
 
 The plasmid backbone is retrieved from STRUBI. It is the pHLsec-LORVR plasmid prepared with GigaPrep at concentration of 2.83 mg/ml.
@@ -108,29 +108,27 @@ Target DNA inserts encoding BoDV-1 Fabs 8B11, 5G5, 6F6, 2G10, and 6C4 were first
 
 - Follow the protocol from [*QIAquick Gel Extraction Kit*](HB-0901-003-1114358_PCard_QQ_PCR_Gel_Cleanup_Kit_0718_WW.pdf) which can be downloaded [here](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.qiagen.com/cn/resources/download.aspx%3Fid%3Da72e2c07-7816-436f-b920-98a0ede5159a%26lang%3Den&ved=2ahUKEwjojL73xaSKAxXTSUEAHS77KOUQFnoECBoQAQ&usg=AOvVaw1MHRCE-ETc-ZTr41aVvRew). Briefly, 3 gel volumes (100 mg = 100 $\mu$L for our purposes) of Buffer QG and melt at 50$\degree$C for 10 minutes. Add 1 volume of isopropanol and transfer to the QIAGEN collection tube, spin, discard flow-through. Add 500 $\mu$L of Buffer QG, spin, discard flow-through. Add 750 $\mu$L Buffer PE, spin, discard flow-through. Elute by adding buffer EB directly to the centre of the column and incubate at room temperature for 5 minutes. Then, spin and collect flow-through.
 
->[!tip] Elution with less volume (30 $\mu$L)
+>[!tip] Elution with less volume could improve yield
 > Elute with 30 $\mu$L instead of the recommended 50 $\mu$L will result in higher concentration of DNA. And to reduce wasteful DNA preparation, you can also use **all** of the DNA for further use.
 
 - Prepare the DNA for sequencing as well to check PCR products. No need to run another gel again. Elute DNA with Buffer EB (10 mM Tris-HCl, pH 8.5).
 - Each outcome is the DNA insert containing either a heavy or light chain DNA template of the specific Fab.
-### PCR amplification results 16/12/2024
 
-- Success: 5G5 HC, 5G5 LC, 6F6 HC, 6F6 LC, 2G10 LC (not recovered because it was lost in the dark room)
-- Troubleshooting: Probably, the first batch I ran with the weird gels got all the products and the rest 20 $\mu$L that I ran got less than half (or none) of the results.
-
+>[!example]- Results
+> ### PCR amplification results 16/12/2024
+> - Success: 5G5 HC, 5G5 LC, 6F6 HC, 6F6 LC, 2G10 LC (not recovered because it was lost in the dark room)
+> - Troubleshooting: Probably, the first batch I ran with the weird gels got all the products and the rest 20 $\mu$L that I ran got less than half (or none) of the results.
+> - 
 | Sample | Concentration (ng/$\mu$L) | 1 $\mu$g    |
 | ------ | ------------------------- | ----------- |
 | 5G5 HC | 19.5                      | 51.2 $\mu$L |
 | 5G5 LC | 51.6                      | 19.4 $\mu$L |
 | 6F6 HC | 31.3                      | 31.9 $\mu$L |
 | 6F6 LC | 21.4                      | 46.7 $\mu$L |
-
-### PCR amplification results 17/12/2024
-
-- All reactions worked but heavy chain DNAs were slightly inefficient to amplify. Hence, less DNA yield for some.
-- Here is the list of all PCRs that worked (Too low means the digestion mixture won't fit in the 50 $\mu$L reaction size):
-
-
+> ### PCR amplification results 17/12/2024
+>- All reactions worked but heavy chain DNAs were slightly inefficient to amplify. Hence, less DNA yield for some.
+>- Here is the list of all PCRs that worked (Too low means the digestion mixture won't fit in the 50 $\mu$L reaction size):
+>- 
 | Sample  | Concentration (ng/$\mu$L) | 1 $\mu$g    |
 | ------- | ------------------------- | ----------- |
 | 8B11 HC | 23.0                      | 43.5 $\mu$L |
@@ -143,6 +141,12 @@ Target DNA inserts encoding BoDV-1 Fabs 8B11, 5G5, 6F6, 2G10, and 6C4 were first
 | 2G10 LC | 3.2                       | Too low     |
 | 6C4 HC  | 11.4                      | Too low     |
 | 6C4 LC  | 43.8                      | 22.8 $\mu$L |
+> ### PCR amplification results 13/1/2025
+> - Aim is to do 2$\times$PCR reactions and then pool all reactions and elute into 30 $\mu$L to get enough PCR products. Will need to skip gel running after the firs PCR as well.
+> - Note that Gel electrophoresis is still necessary after restriction enzymes cut. Might see faint bands of non-specific products but this will get excluded after excision anyway.
+> - 
+> | Sample | Concentration (ng/$\mu$L) | 1 $\mu$g |
+> | ------- | --- | --- |
 
 
 ----
