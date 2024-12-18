@@ -52,7 +52,7 @@ Target DNA inserts encoding BoDV-1 Fabs 8B11, 5G5, 6F6, 2G10, and 6C4 were first
 ---
 ## PCR of BoDV-1 Fabs: 8B11, 5G5, 6F6, 2G10, and 6C4 
 
-[![Antibody Structure, classes and functions_AntibodySystem](https://www.antibodysystem.com/storage/20210823/bf17e1700825ed291f0dad04f111f0b8.png)
+![Antibody Structure, classes and functions_AntibodySystem](https://www.antibodysystem.com/storage/20210823/bf17e1700825ed291f0dad04f111f0b8.png)
 
 - The Fabs sequences and primers are in [[Primers]].
 - 10 PCR reactions amplified DNA sequences for the heavy and light chains of **8B11**, **5G5**, **6F6**, **2G10**, and **6C4**.
