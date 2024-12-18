@@ -32,12 +32,28 @@ So the MCS becomes **...-Kozak-signal peptide-AgeI-...insert...-KpnI-K-6His-STOP
 The plasmid backbone is retrieved from STRUBI. It is the pHLsec-LORVR plasmid prepared with GigaPrep at concentration of 2.83 mg/ml.
 
 > [!tldr] Method Summary
-Target DNA inserts encoding BoDV-1 Fabs 8B11, 5G5, 6F6, 2G10, and 6C4 were first PCR amplified with Phusion®️ High-Fidelity PCR Master Mix with HF Buffer. The insert DNA templates were designed such that the heavy chain (HC) for each Fab was integrated at AgeI and KpnI restriction sites, while the template for light chain (LC) was integrated at AgeI and XhoI sites. Hence, the translated LCs do not possess 6$\times$His overhang, unlike the HCs. The amplified DNA templates were then purified with QIAquick®️ Gel extraction Kit. Then, the templates were digested with AgeI-HF®️+KpnI-HF®️ for HC insert or AgeI-HF®️+XhoI for LC insert at 37$\degree$C for 1 hour. The pHLsec-LORVR plasmid was also digested under the same conditions with either of the restriction enzymes mixtures to produce suitable backbones for ligation with HC and LC DNA inserts. The digestion products were then purified and subjected to ligation with Quick Ligation Kit™️ for 5 minutes at room temperature. Then, the ligation products were added to 50 $\mu$L of competent cells. The cells were then transformed by heat shock at 42$\degree$C and plated onto ampicillin-containing LB-agar selection plates and incubated overnight at 37$\degree$C. The colonies were then picked and incubated to out-compete background in 500 $\mu$L SOC medium at 37$\degree$C with ~250 rpm shaking before transferring into a 5 mL of LB medium with 1$\times$ampicillin. The bacterial mixtures were then incubated overnight. The plasmids were then purified from the bacteria with QIAprep®️ Miniprep Spin Kit.
+Target DNA inserts encoding BoDV-1 Fabs 8B11, 5G5, 6F6, 2G10, and 6C4 were first PCR amplified with Phusion®️ High-Fidelity PCR Master Mix with HF Buffer. The insert DNA templates were designed such that the heavy chain (HC) for each Fab was integrated at AgeI and KpnI restriction sites, while the template for light chain (LC) was integrated at AgeI and XhoI sites. Hence, the translated LCs do not possess 6$\times$His overhang, unlike the HCs. The amplified DNA templates were then purified with QIAquick®️ Gel Extraction Kit. Then, the templates were digested with AgeI-HF®️+KpnI-HF®️ for HC insert or AgeI-HF®️+XhoI for LC insert at 37$\degree$C for 1 hour. The pHLsec-LORVR plasmid was also digested under the same conditions with either of the restriction enzymes mixtures to produce suitable backbones for ligation with HC and LC DNA inserts. The digestion products were then purified and subjected to ligation with Quick Ligation Kit™️ for 5 minutes at room temperature. Then, the ligation products were added to 50 $\mu$L of competent cells. The cells were then transformed by heat shock at 42$\degree$C and plated onto ampicillin-containing LB-agar selection plates and incubated overnight at 37$\degree$C. The colonies were then picked and incubated to out-compete background in 500 $\mu$L SOC medium at 37$\degree$C with ~250 rpm shaking before transferring into a 5 mL of LB medium with 1$\times$ampicillin. The bacterial mixtures were then incubated overnight. The plasmids were then purified from the bacteria with QIAprep®️ Miniprep Spin Kit.
+
 ### Materials
 
+| Name                                                  | Provider |
+| ----------------------------------------------------- | -------- |
+| Phusion®️ High-Fidelity PCR Master Mix with HF Buffer | NEB      |
+| QIAquick®️ Gel Extraction Kit                         | QIAGEN   |
+| QIAprep®️ Miniprep Spin Kit                           | QIAGEN   |
+| AgeI-HF®️                                             | NEB      |
+| KpnI-HF®️                                             | NEB      |
+| XhoI                                                  | NEB      |
+| Quick Ligation™️ KIt                                  | NEB      |
+| Competent Cells (TBA)                                 |          |
+| Ampicillin (TBA)                                      |          |
+| Agarose (TBA)                                         |          |
 
 ---
 ## PCR of BoDV-1 Fabs: 8B11, 5G5, 6F6, 2G10, and 6C4 
+
+[![Antibody Structure, classes and functions_AntibodySystem](https://www.antibodysystem.com/storage/20210823/bf17e1700825ed291f0dad04f111f0b8.png)
+
 - The Fabs sequences and primers are in [[Primers]].
 - 10 PCR reactions amplified DNA sequences for the heavy and light chains of **8B11**, **5G5**, **6F6**, **2G10**, and **6C4**.
 - Primer solutions were suspended in milliQ water to 100 $\mu$M stock solution.
@@ -45,7 +61,7 @@ Target DNA inserts encoding BoDV-1 Fabs 8B11, 5G5, 6F6, 2G10, and 6C4 were first
 - Templates were needed for only 10 ng, but the concentrations were 300 - 500 ng/$\mu$L -> 1:100 dilution gives 3 - 5 ng/$\mu$L -> Take 2 $\mu$L for ~ 10 ng. **(100 $\mu$L)**
 - In total, 5 $\mu$L of primers were added (forward + reverse) and 2 $\mu$L of template was added for each reaction. So, for a 50 $\mu$L reaction, you'd need 43 $\mu$L of master mix
 - Use the same reverse primer for light (no His-tag, XhoI res site) chains, and the same for heavy chains (with His-tag, KpnI res site). All forward primers have AgeI res site.
-- **Over-expression of light chain causes aggregation within the cell so it needs to be expressed alongside heavy chain. Hence, we only purify the fully assembled form of Fab.** See this paper: https://www.nature.com/articles/s41467-023-43443-4.
+- **Over-expression of light chain causes aggregation within the cell so it needs to be expressed alongside heavy chain. Hence, we only purify the fully assembled form of Fab.**
 - Master Mix $\times$ 11 (10 + 1 allowing for error) *Use [Phusion(R) High-Fidelity PCR Master Mix with HF Buffer](https://www.neb.com/en-gb/protocols/2012/09/06/protocol-phusion-high-fidelity-pcr-master-mix-with-hf-buffer-m0531)*
 
 | Concentration | Reagent       | $\mu$L (50 $\mu$L rxn) | $\mu$L (11 rxns) |
