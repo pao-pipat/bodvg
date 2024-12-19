@@ -13,11 +13,11 @@ URL: https://bodvg.vercel.app
 Image obtained from [the International Committee on Taxonomy of Viruses](https://ictv.global/report/chapter/bornaviridae/bornaviridae/orthobornavirus).
 ## Background
 
-- [[BDVG_Literature_Review]]
+- [[BDVG Literature Review]]
 ## Molecular Biology
 
-- [[01_Cloning]]
-- [[01_Transfection_Test]]
+- [[Cloning]]
+- [[Transfection Test]]
 
 ## Structural Biology Basics (X-ray and Cryo-EM)
 
