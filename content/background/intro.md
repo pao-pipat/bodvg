@@ -12,3 +12,7 @@ Orthobornaviruses contain the following gene order in its genome: 3'-N-X-P-M-G-L
 ## Why Glycoprotein?
 
 The virion is an enveloped particle decorated with the virus glycoprotein (G) encoded for by *G* gene. Because of its localisation on the virus surface, G is thought to play a role in host receptor recognition, fusion between the host and viral membranes, and the virus tropism. 
+
+## Further information on BoDV-G
+
+- The virions are not typically found in the infected rat brains, they rely mostly on [Cell-to-Cell spread](Cell-to-Cell%20spread.md).
