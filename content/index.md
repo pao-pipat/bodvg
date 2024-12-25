@@ -13,10 +13,13 @@ URL: https://bodvg.vercel.app
 Image obtained from [the International Committee on Taxonomy of Viruses](https://ictv.global/report/chapter/bornaviridae/bornaviridae/orthobornavirus).
 ## Background
 
-- [[BoDV-G Literature Review]]
+- [Introduction](molecbiol/intro.md)
+- [Cell-to-Cell spread](Cell-to-Cell%20spread.md)
 ## Molecular Biology
 
 - [[Cloning]]
+	- [Primers](Primers.md)
+	- [BoDV-1 G constructs](BoDV-1%20G%20constructs.md)
 - [[Transfection Test]]
 
 ## Structural Biology Basics (X-ray and Cryo-EM)
