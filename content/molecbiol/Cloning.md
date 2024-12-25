@@ -20,11 +20,11 @@ The goal of this protocol is to clone 5 antigen-binding fragments (Fabs) heavy a
 
 The pHLsec plasmid:
 
-![Pasted image 20241218165316](Pasted%20image%2020241218165316.png)
+![Pasted image 20241218165316](assets/Pasted%20image%2020241218165316.png)
 
 This is from the supplementary from the paper. In pHLsec, the MCS is modified as below:
 
-![Pasted image 20241213163449](Pasted%20image%2020241213163449.png)
+![Pasted image 20241213163449](assets/Pasted%20image%2020241213163449.png)
 
 **...-Kozak-signal peptide-AgeI-...insert...-KpnI-K-6His-STOP-STOP-...-XhoI-...**
 
