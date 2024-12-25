@@ -8,12 +8,12 @@ This is a vault containing all protocols. It will be updated regularly. Enjoy!
 
 URL: https://bodvg.vercel.app
 
-![[Pasted image 20241213153041.png]]
+![[assets/Pasted image 20241213153041.png]]
 
 Image obtained from [the International Committee on Taxonomy of Viruses](https://ictv.global/report/chapter/bornaviridae/bornaviridae/orthobornavirus).
 ## Background
 
-- [[BDVG Literature Review]]
+- [[BoDV-G Literature Review]]
 ## Molecular Biology
 
 - [[Cloning]]
